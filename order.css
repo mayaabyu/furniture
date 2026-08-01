@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e9eae5;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #1e1e1e;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    text-decoration: none;
+    align-items: left;
+    color:#e9eae5;  
+
+}
+
+.nav-logo{
+    height: 100px;
+    width: 30%;
+    border: none;
+    border-radius: 0%;
+}
