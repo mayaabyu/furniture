@@ -82,7 +82,8 @@ h2{
 }
 .form-group label{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    
     align-items: center;
 }
 
