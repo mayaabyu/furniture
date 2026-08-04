@@ -24,7 +24,9 @@ nav{
     justify-self: center;
     margin-right: 60px;
 }
-
+.git-link{
+      color: rgba(117, 53, 53, 0.919);
+}
 a{
     list-style: none;
     text-decoration: none;
@@ -54,9 +56,19 @@ h1{
     font-weight: 500x;
     
 }
+.top-split{
+    display: flex;
+    gap: 50px;
+ }
 
+ .right-split{
+     gap: 40px;
+     display: flex;
+     flex-direction: column;
+    
+ }
 .box-1{
-     padding: 20px;
+    padding: 20px;
     background-color: #eaddd7;
     border: 1px solid black;
     height: 440px;
@@ -78,7 +90,7 @@ h2{
 }
 
 .box-2{
-     padding: 20px;
+    padding: 20px;
     background-color: #eaddd7;
     border: 1px solid black;
     height: 460px;
@@ -98,37 +110,6 @@ h2{
     padding: 20px;
 }
 
-/* lists-section */
-.lists-section{
-    display: flex;
-    flex-direction: row;
-    overlay: top-split;
-    margin-top: -200px;
-}
-
-.list-card{
-    display: flex;
-    flex-direction: row; 
-}
-
-.listt{
-    font-size: xx-large;
-}
-.list{
-    font-size: xx-large;
-}
-
-.callouts{
-    margin-top: -700px;
-    m 
-}
- 
-
- .socials-box{
-    display: flex;
-    flex-direction: row;
-    height: 100px;
- }
  p{
     color: #7f7e7b;
     font-weight: bold;
@@ -137,23 +118,77 @@ h2{
     display: flex;
     flex-direction: row;
  }
- .top-split{
+
+  
+
+ .list{
     display: flex;
-   gap: 50px;
+    flex-direction: row;
  }
- .right-split{
-    gap: 40px;
+
+ .list li{
+    font-size: 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+ }
+.why{
+    color: #846358;
+    font-size: 50px;
     display: flex;
     flex-direction: column;
-    
+    margin-top: -300px;
+    margin-left: 200px;
+}
+
+
+  .faq-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 2px solid #8c7b6d;
+    padding-top: 20px;
+    margin: 40px;
+    width: 90%;
+    gap: 10px;
+}
+
+.faq-title{
+    font-size: 28px;
+    font-weight: bold;
+    color: #8b5e3c;
+    min-width: 80px;
+}
+
+ 
+
+.faq-item h4{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.faq-item p{
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+}
+
+ .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    height: 60px;
  }
+
+
   
   footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: black;
-     max-height: 205px;
+    max-height: 205px;
     margin-top: 20px;
     position: sticky;
     top: 100vh;  

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order product</title>
+    <title>🛒shop product</title>
     <link rel="stylesheet" href="order.css">
 </head>
 <body>
@@ -14,84 +14,153 @@
 
                    <ul class="nav-ul">
                     <li><a class="home"  href="index.html">Home</a></li>
-                    <li><a class="contact" href="contactus.html">Contact</a></li>
+                    <li><a class="contact" href="contactus.html">Contact us</a></li>
                     <li><a class="about" href="about.html">About</a></li>
-                    <li><a class="order" href="order.html">Order</a></li>
+                    <li><a class="order" href="order.html">Shop</a></li>
                     <li><a class="product" href="product.html">Products</a></li>
+                    <li><a class="git-link" href="https://github.com/mayaabyu/furniture.git">GitHub</a></li>
                    </ul>           
                 
         </nav>
     </header>
     <main>
-        <section class="order-section">
-            <h1>Bring your vision Home!</h1>
-                         
-<form>
-    <div class="order-fills">
-    <div class="form-row">
-        <div class="form-group">
-        <label for="date">order date</label> 
-        <input type="text" id="info-input" placeholder="Please enter date" required>
+        <section class="order-form">
+    <h1>Bring Your Vision Home!</h1>
+    <form>
+        <div class="form-row">
+            <div class="input-box">
+                <label>First name</label>
+                <input type="text" placeholder="Please enter first name...">
+            </div>
+            <div class="input-box">
+                <label>Last name</label>
+                <input type="text" placeholder="Please enter last name...">
+            </div>
         </div>
-        <div class="form-group">
-            <label for="name">First name</label>
-            <input type="text" id="info-input" placeholder="Please enter first name" required>
+        <div class="full-width">
+            <label>Email</label>
+            <input type="email" placeholder="Please enter Email...">
         </div>
-        <div class="form-group">
-            <label for="name">last name</label>
-            <input type="text" id="info-input" placeholder="Please enter last name" required>
+        <div class="form-row">
+            <div class="input-box">
+                <label>Phone number</label>
+                <input type="text" placeholder="Please enter phone number...">
+            </div>
+            <div class="input-box">
+                <label>Address</label>
+                <input type="text" placeholder="Please enter address...">
+            </div>
         </div>
-        <div class="form-grouping">
-            <label for="email">Email</label>
-            <input type="text" id="info-input" placeholder="Please enter email" requiired>
-        </div>
-</div>
-<div class="form-rowed">
-        <div class="form-group">
-            <label for="phone number">Phone number</label>
-            <input type="text" id="info-input" placeholder="please enter phone number">
-        </div>
-        <div class="form-grouped">
-            <label for="adress">Adress</label>
-            <input type="text" id="info-input" placeholder="please enter adress">
-        </div>
-        </div>
-        </div>
-   
-    </form> 
-        </section>
+    </form>
+</section>
+    
+        
  <section class="products-section">
-    <h1>choose what to order</h1>
+    <h1>choose what to Buy!</h1>
     <div class="main-products">
      
-      <div class="card"> 
+      <div id="card"> 
          <img src="images/ officechairnonsofa.jpg" alt="office chair">
-         <p>couch</p>
+        <div>
+        <h3>Couch</h3>
          <p>$300</p>
          <button>Select</button>
         </div>
-       <div class="card"> <img src="images/ officechair.jpg" alt="office chair">
-       <p>study chair</p>
-       <p>$200</p>
-       
+          
+        </div>
+       <div id="card"> <img src="images/ officechair.jpg" alt="office chair">
+        <div>
+     <h3>study chair</h3>
+        <p>$500</p>
         <button>Select</button>
+        </div>    
+    </div>
+</div>
+ 
+        <div class="third-product">
+       <div class="cards-forsale2"><img class="card" src="images/ tvstand.jpg" alt=""> 
+        <h3>Tv stand</h3> 
+        <p>$370</p>
+        <button class="click">SELECT</button> 
+    </div>
+       <div class="cards-forsale2"><img class="card" src="images/ diningtable.jpg" alt=""> 
+        <h3>Dining table</h3>
+        <p>$590</p>
+        <button class="click">SELECT</button>
+     </div>
+       <div class="cards-forsale2"><img class="card" src="images/kitchen.jpg" alt="">
+         <h3>Kitchen cabinet</h3>
+         <p>$680</p>
+          <button class="click">SELECT</button> 
         </div>
-        
-        </div>
-        <div class="second-product">
-             <div class="cards-forsale"><img src="images/ bed.jpg" alt=""></div>
-        <div class="cards-forsale"><img src="images/ bed.jpg" alt=""></div>
-        <div class="cards-forsale"><img src="images/ bed.jpg" alt=""></div>
-        </div>
-
-        <div class="third-card">
-       <div class="cards-forsale2"><img src="images/ brownsofa.jpg" alt=""></div>
-       <div class="cards-forsale2"><img src="images/ beddd.jpg" alt=""></div>
-       <div class="cards-forsale2"><img src="images/ coolbed.jpg" alt=""></div>
              
         </div>
  </section>
+ <section class="sales-section">
+     <div class="fourth-product">
+       <div class="cards-forsale2"><img class="card" src="images/ brownsofa.jpg" alt="">
+        <div>
+            <h3>Comfortable sofa</h3><br><p>$6800</p>
+            <button class="click">SELECT</button>
+        </div>
+    </div>
+       <div class="cards-forsale2"><img class="card" src="images/ couch.jpg " alt="">
+        <div><h3>Couch</h3><br><p>$2000</p><button class="click">SELECT</button>
+    </div>
+</div>
+       <div class="cards-forsale2"><img class="card" src="images/ greensofa.jpg" alt=""><h3>Modern sofa</h3><br><p>$4000</p><button class="click">SELECT</button></div>
+             
+        </div>
+<div class="fourth-product">
+       <div class="cards-forsale2"><img class="card" src="images/ dresser.jpg" alt="">
+        <div>
+      <h3>Office dresser</h3><br><p>$1000</p>
+      <button class="click">SELECT</button>
+    </div>
+</div>
+       <div class="cards-forsale2"><img class="card" src="images/ officehallchajr.jpg " alt="">
+        <div>
+            <h3>Hall table</h3> <br><p>$3500</p>
+            <button class="click">SELECT</button>
+            </div>
+    </div>
+       <div class="cards-forsale2"><img class="card" src="images/ officedrawer.jpg" alt="">
+        <div><h3>Office drawer</h3><br><p>$4800</p><button class="click">SELECT</button>
+        </div>
+             </div>
+             </div>
+ </section>
+
+ <section class="payment-section">
+    <h1>Choose Your Payment Method.</h1>
+    <div class="pay-methods">
+        <div class="payment-cards"><img class="card" src="images/ cahs.png" alt=""></div>
+        <div class="payment-cards"><img class="card" src="images/ paypal.png" alt=""></div>
+        <div class="payment-cards"><img class="card" src="images/ bank.png" alt=""></div>
+        <div class="payment-cards"><img class="card" src="images/ credit.png" alt=""></div>
+        
+    </div>
+
+   <button class="submit">SUBMIT</button>  
+ </section>
         
     </main>
+     <footer>
+         <img class="socials-img" src="images/ socials.png" alt="our sociials">
+    <div class="adress">
+        <h4>phone number:+2519002321133</h4>
+    <h4>Email: TogetherFurniture@gmail.com</h4>
+    <h4>Adress: Addis Ababa,Ethiopia</h4>
+    </div>
+     
+    <ul class="footer-ul">
+               <li><a href="homepage.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>            
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+            </ul>
+           
+                 
+     </footer>
     </body>
 </html>
