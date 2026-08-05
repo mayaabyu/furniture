@@ -31,6 +31,12 @@ nav{
     border-radius: 0%;
 }
 
+h2{
+    margin-left: 30px;
+    font-size: 30px;
+    
+}
+
 .container{
     display: flex;
     flex-direction: row;
