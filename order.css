@@ -99,11 +99,6 @@ input{
     outline:none;
 }
 
-
-.full-width{
-    margin-bottom:30px;
-}
-
 .form-row{
     display:flex;
     justify-content:space-between;
@@ -131,7 +126,7 @@ input{
      border-radius: 20px;
      text-align: center;
      height: 200px;
-     width: 300px;
+     width: 400px;
      
  }
 
@@ -192,6 +187,8 @@ input{
 
  }
 
+ 
+
  .cards-forsale:hover{
     padding: 3px;
     transition: 0.3s;
@@ -199,17 +196,17 @@ input{
  }
  
  .second-product{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     padding: 20px;
  }
 
  .third-product{
      display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 20px;
+     flex-direction: row;
+     justify-content: space-around;
+     padding: 20px;
  }
 
 
@@ -222,7 +219,8 @@ input{
     height: 450px;
     border: 1px solid #554646;
     box-shadow: 2px 2px grey;
-    border-radius: 20px;
+    border-radius: 20px;;
+     justify-items: center;
  }
 
  .cards-forsale2:hover{
@@ -230,6 +228,8 @@ input{
     transition: 0.3s;
     box-shadow: 3px 3px #554646;
  }
+
+  
 
  .fourth-product{
     display: flex;
@@ -240,6 +240,16 @@ input{
     margin-left: 22px;
  }
 
+ .click{
+   width: 200px;
+   height: 50px;
+   background-color: #cec7bb;
+   border-radius: 20px;
+ }
+.click:hover{
+   background-color: #a8a39b;
+   transition: 0.3s;
+}
  .card{   
     width: 300px;
     height: 270px;
@@ -254,17 +264,24 @@ input{
     align-items: center;
     gap: 5px;
     padding: 38px;
+   
+    
  }
+
+ .payment-cards{
+   width: 300px;
+   border-radius: 20px;
+ }
+.payment-cards:hover{
+   box-shadow: 2px 2px 2px grey;
+    transform: translateY(-8px);
+}
+
+.payment-cards img{
+   border-radius: 20px;
+}
   
   
-
-
-
-
-
-
-
-
 
 
 .submit{
@@ -281,6 +298,7 @@ input{
     align-items: center;
     margin-left:570px;
     margin-bottom: 20px;
+    border-radius: 10px;
     
 }
 
@@ -290,30 +308,6 @@ input{
     background-color: #c1baaf;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  footer{

@@ -30,23 +30,27 @@ p{
 
 h1{
     color: #6f431d;
-    margin-left: 20px;
+    margin-left: 15px;
+    font-size: 40px;
 }
 
 h2{
   color: #937051;
-    margin-left: 20px;  
+    margin-left: 20px; 
+    font-size: 28px; 
 }
  
 h3{
     color: #6f431d;
-    font-size: larger;
+    font-size: 20px;
     font-weight: bold;
     margin-left: 20px;
 
 }
 h4{   
    margin-left: 20px; 
+   font-size: 15px;
+   
 }
 #shop-btn{
     color: white;
@@ -91,7 +95,8 @@ h4{
  }
 
  .hero-text{ 
-   margin-left: 20px; 
+   margin-left: 20px;
+   padding: 20px; 
  }
 
  a{

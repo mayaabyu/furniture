@@ -19,7 +19,8 @@ nav{
     flex-direction: row;
     list-style: none;
     text-decoration: none;
-    gap: 10px;
+    gap: 30px;
+
 }
 img{
     height: 60px;
@@ -39,10 +40,18 @@ a:hover{
 }
 
 h1{
-    font-size: 800;
+    margin-top: -20px;
     font-style: monospace;
     font-weight: bold;
     align-self: center;
+}
+
+.git-link{
+    color: #a7664d;
+}
+
+.git-link:hover{
+    color: #7a4b39;
 }
 
 .contact-card{
